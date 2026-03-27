@@ -1,0 +1,120 @@
+{
+  "reservations": [
+    {
+      "id": "res-0038baac-8402-4f88-97e8-e881bb5c13fb",
+      "userId": "web-demo-user",
+      "userName": "Гор",
+      "phone": "+79883430575",
+      "venueId": "patriki",
+      "tableId": "tbl-patriki-private-1",
+      "date": "2026-03-27",
+      "time": "20:00",
+      "guests": 4,
+      "status": "canceled",
+      "createdAt": "2026-03-26T21:40:42.172Z",
+      "hookahPreorder": {
+        "strength": "medium",
+        "flavorCategory": "fruity",
+        "bowlType": "phunnel",
+        "comment": "",
+        "menuItemIds": []
+      }
+    },
+    {
+      "id": "res-3f3f0e88-42b3-4b1a-9bb6-18998849bc31",
+      "userId": "web-demo-user",
+      "userName": "Гор",
+      "phone": "+79883430575",
+      "venueId": "river",
+      "tableId": "tbl-river-terrace-1",
+      "date": "2026-03-27",
+      "time": "20:00",
+      "guests": 4,
+      "status": "confirmed",
+      "createdAt": "2026-03-26T21:22:20.484Z",
+      "hookahPreorder": {
+        "strength": "medium",
+        "flavorCategory": "fruity",
+        "bowlType": "fruit_bowl",
+        "comment": "",
+        "menuItemIds": [
+          "item-tea-signature",
+          "item-nuts-truffle"
+        ]
+      }
+    },
+    {
+      "id": "res-demo-001",
+      "userId": "web-demo-user",
+      "userName": "Алексей Белов",
+      "phone": "+79991234567",
+      "venueId": "patriki",
+      "tableId": "tbl-patriki-lounge-1",
+      "date": "2026-03-27",
+      "time": "20:00",
+      "guests": 4,
+      "status": "new",
+      "createdAt": "2026-03-26T17:10:00.000Z",
+      "hookahPreorder": {
+        "strength": "medium",
+        "flavorCategory": "fruity",
+        "bowlType": "phunnel",
+        "comment": "Без холода, с чайной нотой.",
+        "menuItemIds": [
+          "item-tea-signature",
+          "item-fruit-plate"
+        ]
+      }
+    },
+    {
+      "id": "res-demo-002",
+      "userId": "demo-user-002",
+      "userName": "Сабина Рахимова",
+      "phone": "+79995554433",
+      "venueId": "river",
+      "tableId": "tbl-river-sofa-1",
+      "date": "2026-03-28",
+      "time": "21:30",
+      "guests": 5,
+      "status": "confirmed",
+      "createdAt": "2026-03-26T16:30:00.000Z",
+      "hookahPreorder": {
+        "strength": "light",
+        "flavorCategory": "citrus",
+        "bowlType": "classic",
+        "comment": "Лёгкий вечерний микс и вода без газа.",
+        "menuItemIds": [
+          "item-sparkling-water"
+        ]
+      }
+    },
+    {
+      "id": "res-demo-003",
+      "userId": "demo-user-003",
+      "userName": "Илья Самойлов",
+      "phone": "+79997775544",
+      "venueId": "loft",
+      "tableId": "tbl-loft-stage-2",
+      "date": "2026-03-29",
+      "time": "19:00",
+      "guests": 7,
+      "status": "arrived",
+      "createdAt": "2026-03-25T19:15:00.000Z",
+      "hookahPreorder": {
+        "strength": "strong",
+        "flavorCategory": "spicy",
+        "bowlType": "fruit_bowl",
+        "comment": "Плотнее по крепости, можно с пряностями.",
+        "menuItemIds": [
+          "item-baklava-box",
+          "item-lemonade-yuzu"
+        ]
+      }
+    }
+  ],
+  "tableAvailability": {
+    "tbl-river-terrace-2": "available",
+    "tbl-loft-vip-1": "vip_only",
+    "tbl-patriki-bar-1": "maintenance"
+  }
+}
